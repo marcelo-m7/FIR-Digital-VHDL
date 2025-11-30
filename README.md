@@ -1,12 +1,3 @@
-# Relatório Assignment 3 – Filtro FIR Digital em VHDL
-
-**Aluno**: Marcelo Santos
-**Email**: [a79433@ualg.pt](mailto:a79433@ualg.pt)
-**Unidade Curricular**: Computação Reconfigurável
-**Instituição**: Universidade do Algarve
-
----
-
 ## 📘 Objetivo do Projeto
 
 O objetivo deste trabalho é implementar e validar a operação de um filtro FIR (Finite Impulse Response) digital, usando linguagem VHDL e simulação no ModelSim, como parte da UC de Computação Reconfigurável. O projeto explora os conceitos de:
@@ -63,17 +54,6 @@ Os gráficos abaixo foram gerados com o script `plot_fir.py`, e representam visu
 * Sinal filtrado suavizado, com leve atenuação nas bordas, típico da resposta de um FIR com janelamento.
 * Confirma que a **frequência de 100 Hz está dentro da banda passante** do filtro FIR projetado.
 
----
-
-## ✅ Conclusões
-
-O filtro FIR implementado demonstrou comportamento consistente com o especificado:
-
-* Resposta coerente com a teoria (resposta ao degrau e impulso testadas)
-* Arquitetura síncrona compatível com FPGA
-* Suporte a entrada e saída via arquivos para visualização em ferramentas externas
-
-A validação via simulação e gráficos confirma a funcionalidade do filtro FIR digital com os coeficientes fornecidos, e serve como base sólida para posterior síntese e implementação em hardware reconfigurável.
 
 ---
 
