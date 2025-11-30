@@ -53,8 +53,3 @@ Os gráficos abaixo foram gerados com o script `plot_fir.py`, e representam visu
 
 * Sinal filtrado suavizado, com leve atenuação nas bordas, típico da resposta de um FIR com janelamento.
 * Confirma que a **frequência de 100 Hz está dentro da banda passante** do filtro FIR projetado.
-
-
----
-
-**[Repositório GitHub](https://github.com/marcelo-m7/Filtro-FIR-Digital-em-VHDL)**
